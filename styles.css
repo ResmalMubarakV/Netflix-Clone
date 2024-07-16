@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.background-image {
+  background-image: url('images/netflixlaunchimage.jpg');
+  height: 700px;
+  background-position: center;
+  height: 96vh;
+  color: black;
+  opacity: 0.25;
+  position: relative;
+}
+
+.logo {
+  height: 68px;
+  width: 195px;
+  color: rgb(229, 9, 20);
+}
+
+.buttons1 {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 130px;
+}
+
+.launch {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 9px;
+  left: 130px;
+  right: 20px;
+  z-index: 1;
+}
+
+.language {
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-size: 16px;
+  height: 32px;
+  width: 126px;
+  margin-right: 25px;
+  border-radius: 4px;
+  border: 0.7px solid #e9e1e1;
+  cursor: pointer;
+}
+
+.sign-in {
+  background-color: #e50914;
+  height: 32px;
+  width: 76px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.seperation {
+  height: 8px;
+  background-color: rgb(37, 36, 36);
+}
+.launchpagetext{
+  display: inline-block;
+  position: absolute;
+  top: 293;
+  left: 205;
+}
+.launchpage-maintext{
+  font-size: 48px;
+  font-weight: 1500;
+  line-height: 40px;
+}
+.launchpage-secondtext{
+  font-size: 24px;
+  padding-left:250px;
+  line-height: 80px;
+}
+.launchpage-thirdtext{
+  font-size: 20px;
+  padding-left: 120px;
+  line-height: 50px;
+}
+.email-button{
+  background-color: rgba(0, 0, 0, 0.4); 
+  color: white;
+  font-size: 16px;
+  width: 360px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  border: 0.7px solid #6f6b6b;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-button{
+  display: flex;
+  margin-left: 148px;
+}
+.getstart-button{
+  width: 215px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  background-color:#e50914;
+  font-size: 24px;
+  font-weight: 400px;
+  color: white;
+  cursor: pointer;
+}
+.email-button:active,
+.email-button:focus {
+  
+  border: 2px solid white;
+  font-size: 14px;
+  padding-left: 3px;
+  padding-top: 4px;
+  padding-bottom: 34px;
+}
+.second-page{
+  height: 503px;
+  width: 1280px;
+}
+.second-page-text{
+  position: relative;
+  display: inline-block;
+  margin-top: 130px;
+  margin-left: 156px;
+}
+.second-page-text1{
+  font-size: 48px;
+  font-weight: 900px;
+  font-weight: bold;
+  line-height: 100px;
+}
+.second-page-text2{
+  font-size: 24px;
+  font-weight: 900px;
+  width: 500px;
+}
+.tv{
+  position: relative;
+  margin-left: 650px;
+  margin-top: -250px;
+  z-index: 1;
+
+
+}
+.tvimage{
+ width: 485px;
+ height: 349px;
+ z-index: 2;
+}
+.video{
+  position: relative;
+  margin-left: 715px;
+  margin-top: -300px;
+
+}
+.tvvideo{
+ width: 350px;
+ height: 235px; 
+}
+.third-page{
+  height: 503px;
+  width: 1280px;
+}
+.third-page-text{
+  position: relative;
+  display: inline-block;
+  margin-top: 110px;
+  margin-left: 646px;
+}
+.third-page-text1{
+  width: 400px;
+  font-size: 48px;
+  font-weight: 900px;
+  font-weight: bold;
+}
+.third-page-text2{
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: 900px;
+  width: 500px;
+}
+.mobilepng{
+  width: 415px;
+ height: 336px;
+}
+.mobile{
+  position: relative;
+  margin-top: -280px;
+  margin-left: 200px;
+}
+.mac{
+  width: 330px;
+ height: 175px;
+ margin-left: 10px;
+}
+.fourth-page{
+  height: 503px;
+  width: 1280px;
+}
+.fourth-page-text{
+  position: relative;
+  display: inline-block;
+  margin-top: 110px;
+  margin-left: 646px;
+}
+.fourth-page-text1{
+  width: 450px;
+  font-size: 48px;
+  font-weight: 900px;
+  font-weight: bold;
+}
+.fourth-page-text2{
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: 900px;
+  width: 500px;
+}
+.childrenpic{
+  width: 475px;
+ height: 366px;
+
+}
+.children{
+    position: relative;
+    margin-top: -290px;
+    margin-left: 155px;
+}
+.final{
+  height: 891px;
+  width: 1280px;
+}
+.final-heading{
+  font-size: 48px;
+  height: 62px;
+  width: 1070px;
+  font-weight: 900;
+ text-align: center;
+ padding-left: 210px;
+ padding-top: 90px;
+ line-height: 5px;
+ margin-bottom: 60px;
+ 
+}
+.box {
+  cursor: pointer;
+  width: 972px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(56, 55, 55);
+  border: none; 
+  padding-left: 20px; 
+  
+ 
+}
+
+.plus {
+  width: 30px;
+  fill: white;
+  margin-left: auto;
+  margin-right: 30px; 
+}
+
+.faq {
+  font-size: 24px;
+  
+  color: white; 
+}
+
+
+.box:hover {
+  background-color: rgb(79, 79, 79);
+}
+
+.faqinfo {
+  margin-top: 9px; 
+  margin-left: 160px;
+  margin-bottom: 9px; 
+}
+.thirdtext2{
+  position: relative;
+  margin-top: -170px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+.loginbutton2{
+  display: flex;
+  margin-left: 348px;
+  margin-bottom: 70px;
+}
+.footer {
+  width: 1100px;
+  height: 340px;
+  margin-left: 155px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  color: rgb(192, 190, 190);
+}
+
+.footer-contact {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.footer-contact p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.footer-contact a {
+  color: rgb(192, 190, 190);
+  font-size: 16px;
+  margin-left: 5px;
+  
+}
+
+
+
+.navigation-div {
+  display: flex;
+  
+}
+
+.nav-first, .nav-second, .nav-third, .nav-fourth {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+  margin-right: 50px; 
+  width: 195px;
+  height: 140px;
+  margin-bottom: 8px;
+  
+}
+
+.footer a {
+  color: rgb(192, 190, 190);
+  margin-bottom: 19px;
+  font-size: 14px;
+  width: 145px;
+  
+}
+
+.footerbutton{
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.netflix-india{
+  font-size: 14px;
+  padding-top:23px;
+}
+
+
